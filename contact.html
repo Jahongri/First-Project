@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>My Contact Details</h3>
+    <p> 34A Black Road California </p>
+    <p> 09876543878 </p>
+    <p> myemail@example.com </p>
+
+    <form action="">
+        <label for="name">Your Name:</label>
+        <input type="text" required><br>
+        <label for="password">Your Password:</label>
+        <input type="password"><br>
+    </form>
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>
+                My Contact Details
+            </legend>
+            <p>
+                <label for="name">Your FullName:</label>
+                <input type="text" required>
+            </p>
+                <input type="submit" required>
+            <p>
+                <input type="file">
+            </p>
+            <p>
+                <input type="date">
+            </p>
+            <p>
+                <input type="range">
+            </p>
+            <p>
+                <input type="radio">
+            </p>
+        </fieldset>
+    </form>
+
+
+    <hr>
+    <form action="main.html" enctype="text/plain">
+        <fieldset>
+            <legend>
+                Personal Details
+            </legend>
+            <p>
+            <label for="name" name="YourName"> Your Name:</label>
+            <input type="text" value=""></input>
+            </p>
+            <p>
+            <label for="email" name="YourEmail"> Your Email:</label>
+            <input type="email" value=""></input>
+            </p>
+            <p>
+            <label for="message" name="YourMessage"> Your Message:</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
